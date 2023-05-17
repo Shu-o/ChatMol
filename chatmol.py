@@ -174,9 +174,9 @@ def chatlite(question):
             print(command)
 
 def start_chatgpt_cmd(message, execute:bool=True, lite:bool=False):
-    if lite == True:
-        chatlite(message)
-        return 0
+#     if lite == True:
+#         chatlite(message)
+#         return 0
     global stashed_commands
     global conversation_history
 
