@@ -173,7 +173,7 @@ def chatlite(question):
         else:
             print(command)
 
-def start_chatgpt_cmd(message, execute:bool=True, lite:bool=True):
+def start_chatgpt_cmd(message, execute:bool=True, lite:bool=False):
     if lite == True:
         chatlite(message)
         return 0
